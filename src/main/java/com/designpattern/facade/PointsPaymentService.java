@@ -1,4 +1,4 @@
-package com.designpattern.appearance;
+package com.designpattern.facade;
 
 public class PointsPaymentService
 {
