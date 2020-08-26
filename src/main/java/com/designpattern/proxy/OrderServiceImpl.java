@@ -7,7 +7,7 @@ public class OrderServiceImpl implements OrderService
     public int saveOrder( Order order )
     {
         orderDao = new OrderDaoImpl();
-        System.out.println( "Service call Dao to inservice" );
+        System.out.println( "Service call Dao to insert" );
         return orderDao.insert( order );
     }
 }
